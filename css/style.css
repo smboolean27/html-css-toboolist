@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f6f8f9;
+}
+
+/* header */
+header {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.logo-testo {
+  display: inline;
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.logo-img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* /header */
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.azioni {
+  border-bottom: 2px solid #f6f8f9;
+  padding: 15px 30px;
+}
+
+.bottone {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333;
+}
+.bottone-pieno {
+  background-color: blue;
+  color: #fff;
+}
+
+/* tasks */
+.tasks {
+  padding: 30px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin: 10px 0;
+}
+
+.cerchio {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  line-height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+.fatto {
+  border: 1px solid #2cc6ab;
+  color: #2cc6ab;
+}
+.non-fatto {
+  border: 1px solid red;
+  color: red;
+}
+
+/* tags */
+.tag {
+  display: inline-block;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 20px;
+  color: #fff;
+}
+.tag-1 {
+  background-color: green
+}
+.tag-2 {
+  background-color: yellow;
+}
+.tag-3 {
+  background-color: blue;
+}
